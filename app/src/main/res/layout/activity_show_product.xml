@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".show_product">
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/app_bar_settings"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/primary">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar_settings"
+            android:layout_width="match_parent"
+            android:background="@color/primary"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:id="@+id/relative"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+
+                >
+
+                <TextView
+                    android:id="@+id/close"
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/white"
+                    android:text="关 闭"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+
+            </RelativeLayout>
+
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ImageView
+
+            android:id="@+id/ShPlateImage"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            />
+
+
+
+
+
+
+    <TableLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="5dp"
+        android:shrinkColumns="*"
+        android:stretchColumns="*"
+
+        android:background="#ffffff">
+
+
+    <!-- Row 1 with single column -->
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="菜名:"
+            android:textColor="@color/primary"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/ShCardFoodName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="mmmmmm"
+            android:textSize="15dp" />
+
+
+    </TableRow>
+
+    <!-- Row 2 with 3 columns -->
+
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+
+
+        <TextView
+            android:textColor="@color/primary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="category:"
+            android:layout_marginBottom="10dp"
+            android:textSize="15dp"
+            />
+
+        <TextView
+            android:id="@+id/ShCardFoodCategory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="kkkkkkkk"
+            />
+
+    </TableRow>
+
+    <!-- Row 3 with 3 columns -->
+
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:textColor="@color/primary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="价格:"
+            android:textSize="15dp"
+            />
+        <TextView
+            android:id="@+id/ShCardPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="mmmmmm"
+
+            android:textSize="15dp"
+            />
+
+    </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+
+            <TextView
+                android:textColor="@color/primary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="各色:"
+                android:textSize="15dp"
+                />
+            <TextView
+                android:id="@+id/ShCardDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="kljljkljkljkljkljlkjkljlkjljllljklkjkljl"
+                android:textSize="15dp"
+                />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+
+            <TextView
+                android:textColor="@color/primary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="几个人能吃:"
+                android:textSize="15dp"
+                />
+            <TextView
+                android:id="@+id/ShCardPersonsToEat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="mmmmmm"
+                android:textSize="15dp"
+                />
+
+        </TableRow>
+    </TableLayout>
+
+
+    </LinearLayout>
+
+
+    </LinearLayout>

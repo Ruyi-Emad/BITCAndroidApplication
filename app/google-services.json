@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "247301214822",
+    "firebase_url": "https://haizi-c8d46.firebaseio.com",
+    "project_id": "haizi-c8d46",
+    "storage_bucket": "haizi-c8d46.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:247301214822:android:7e7b8dfe414f8ea26cd3a7",
+        "android_client_info": {
+          "package_name": "com.example.haizi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "247301214822-k0er6aqj8ipf92ao5qvq6bpbi8hqbmcl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.haizi",
+            "certificate_hash": "8b0e828414dfefcc1b21c02cde2f4059dff12e6d"
+          }
+        },
+        {
+          "client_id": "247301214822-slen1muibr3iir276aan0843t7bq90sq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoel0vACjX0Ze7LHGxn-ae8MFnSa033YU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "247301214822-slen1muibr3iir276aan0843t7bq90sq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

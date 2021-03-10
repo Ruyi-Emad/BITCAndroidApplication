@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".about">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/app_bar_settings"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/primary">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar_settings"
+            android:layout_width="match_parent"
+            android:background="@color/primary"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:id="@+id/relative"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+
+                >
+
+                <TextView
+                    android:id="@+id/close"
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/white"
+                    android:text="关 闭"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+
+            </RelativeLayout>
+
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/fulllogo"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            >
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@color/primary"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:text="学校简介 "
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="北京信息职业技术学院创建于1954年，是国家教育部批准的公办全日制普通高等职业技术学院，是国家骨干高职学院、北京市示范性高职院校，是国家35所“示范性软件职业技术学院”建设单位之一，是北京市职业院校信息技术类专业教师培训基地所在单位，是全国普通高校毕业生就业工作先进集体，是全国高等教育学籍学历管理工作先进集体，是北京市“一带一路”国家人才培养基地，是北京市深化创新创业教育教学改革示范校和高校示范性创业中心，荣获“第五届黄炎培优秀学校奖”。"
+            />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@color/primary"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                android:text="电话沟通 "
+                android:gravity="center"
+                />
+            <TableLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="5dp"
+                android:shrinkColumns="*"
+                android:stretchColumns="*"
+
+                android:background="#ffffff">
+
+
+                <!-- Row 1 with single column -->
+                <TableRow
+                    android:id="@+id/tableRow1"
+                    android:layout_height="wrap_content"
+                    android:layout_width="fill_parent"
+                    android:gravity="center_horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="学院办公室"
+                        android:textColor="@color/primary"
+                        android:textSize="15dp" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="64312725"
+                        android:textSize="15dp" />
+
+
+                </TableRow>
+
+                <!-- Row 2 with 3 columns -->
+
+
+                <TableRow
+                    android:id="@+id/tableRow2"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent">
+
+
+
+                    <TextView
+                        android:textColor="@color/primary"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="招生办公室"
+                        android:layout_marginBottom="10dp"
+                        android:textSize="15dp"
+                        />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15dp"
+                        android:text="64353978、64374282"
+                        />
+
+                </TableRow>
+
+                <!-- Row 3 with 3 columns -->
+
+
+                <TableRow
+                    android:id="@+id/tableRow3"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent">
+
+                    <TextView
+                        android:textColor="@color/primary"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="教学系专业咨询电话"
+                        android:textSize="15dp"
+                        />
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="（8:30-16:00）"
+                        android:textSize="15dp"
+                        />
+
+                </TableRow>
+
+            </TableLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@color/primary"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                android:text="学校地址 "
+                android:gravity="center"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="朝阳区芳园西路5号（东四环霄云桥外大山子方向800米右侧）。 邮编：100015"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="东校区：朝阳区东坝红松园北里甲1号。 邮编：100018"
+                />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="南校区：丰台区花乡辛庄90号（首都经济贸易大学南侧）。 邮编：100070"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@color/primary"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                android:text="App 功能"
+                android:gravity="center"
+                />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="应用最重要的功能是能够把教师和我们学生联系起来。教师们不用亲自去说或通知他的学生，就可以通过我们的app实现。"
+/>
+
+                />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="通知 ：通知界面是显示通知标题，在通知标题按之后通知信息会在独立的界面显示。通知信息是（通知内容，时间，图片）"
+
+                />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="食堂：界面会显示每菜的名字，类型，价格，菜用料，几个人能吃。"
+
+                />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="课程：学生登录之后他会按他在设置界面写的班级号，在课程里显示他一年的学期一与学期二的课程表和班主任的名字，也会看到教师写的一些注意事项。
+
+设置：学生能设置（照相，名字，密码，手机号，专业，班级号，学号）。
+
+退出：学生自己账号从应用退出"
+                />
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="设置：学生能设置（照相，名字，密码，手机号，专业，班级号，学号）。"
+
+                />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="退出:学生自己账号从应用退出"
+                />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="退出：学生自己账号从应用退出"
+                />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text=""
+                />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>
